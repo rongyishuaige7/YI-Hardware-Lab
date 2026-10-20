@@ -140,6 +140,8 @@ def validate_local(data: dict[str, Any]) -> list[dict[str, Any]]:
             fail(f"{name}: build.head_sha must be a full lowercase Git SHA")
         if build["head_sha"] != project["head_sha"]:
             fail(f"{name}: build evidence must match the indexed default-branch HEAD")
+        if "workflow" in build and not re.fullmatch(r"\.github/workflows/[A-Za-z0-9_.-]+\.ya?ml", str(build["workflow"])):
+            fail(f"{name}: build.workflow must identify a repository workflow file")
         if not RUN_RE.fullmatch(str(build.get("run_url", ""))):
             fail(f"{name}: build.run_url must be a fixed GitHub Actions run URL")
         if "artifact_retention_days" not in build:
@@ -198,6 +200,12 @@ def validate_live(projects: list[dict[str, Any]]) -> None:
             fail(f"{name}: workflow run is not a completed success")
         if run.get("head_sha") != project["head_sha"]:
             fail(f"{name}: workflow run does not match the indexed HEAD")
+        if run.get("event") not in {"push", "workflow_dispatch", "schedule"}:
+            fail(f"{name}: workflow run has an untrusted event")
+        if run.get("head_branch") != project["default_branch"]:
+            fail(f"{name}: workflow run is not on the default branch")
+        if project["build"].get("workflow") and run.get("path", "").split("@", 1)[0] != project["build"]["workflow"]:
+            fail(f"{name}: workflow run does not match the indexed workflow")
         if project["build"]["artifact_retention_days"] is None:
             artifacts = get_json(f"{api_base}/actions/runs/{run_id}/artifacts")
             if artifacts.get("total_count") != 0:

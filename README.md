@@ -2,7 +2,7 @@
 
 我独立完成的软硬件项目作品集，收录源码、项目介绍、构建记录和可公开的项目资料。
 
-> **更新日期：2026-07-19。** 当前收录 22 个公开项目。每个“Actions 成功”链接均对应所列默认分支的最新提交；部分项目提供短期 Actions Artifact。
+> **更新日期：2026-10-20。** 当前收录 22 个公开项目。“Actions 成功”链接记录截至本次核验的默认分支提交；后续提交可能使索引落后，定时检查会明确报错。部分项目提供短期 Actions Artifact。
 
 ## 项目
 
@@ -27,7 +27,7 @@
 多传感器数据采集教学原型，包含 Flash 历史与离线缓存、ESP-01S AT 联网、TCP JSON 工具、OLED 与告警。
 
 - **技术栈：** STM32F103 · C · PlatformIO · STM32Cube HAL · W25Q64 · ESP-01S
-- **构建证据：** [`08edc84efa6a`](https://github.com/rongyishuaige7/stm32-multisensor-data-acquisition/commit/08edc84efa6afbebc2b0d51f57634c16bcdf6c82) · [Actions 成功](https://github.com/rongyishuaige7/stm32-multisensor-data-acquisition/actions/runs/29670054376)
+- **构建证据：** [`eaf088e4f160`](https://github.com/rongyishuaige7/stm32-multisensor-data-acquisition/commit/eaf088e4f16077381ddea2bbdef2bdf65414bf9e) · [Actions 成功](https://github.com/rongyishuaige7/stm32-multisensor-data-acquisition/actions/runs/38683114791)
 - **项目资料：** 项目照片
 
 ### [基于LoRa和ESP32的仓库物品追踪定位系统](https://github.com/rongyishuaige7/lora-warehouse-tracking-system)
@@ -35,7 +35,7 @@
 仓库区域追踪教学原型，包含 LoRa 标签/网关固件、Flask/SQLite 服务与 Kotlin Android 客户端。
 
 - **技术栈：** ESP32 · LoRa/SX1278 · C++ · PlatformIO · Flask · SQLite · Kotlin
-- **构建证据：** [`31b0cfd7d227`](https://github.com/rongyishuaige7/lora-warehouse-tracking-system/commit/31b0cfd7d2276fef1f69f3a005032fa6f4ba87ee) · [Actions 成功](https://github.com/rongyishuaige7/lora-warehouse-tracking-system/actions/runs/29670049908)
+- **构建证据：** [`c8b005855d89`](https://github.com/rongyishuaige7/lora-warehouse-tracking-system/commit/c8b005855d8952f147024863caa52722e14b148f) · [Actions 成功](https://github.com/rongyishuaige7/lora-warehouse-tracking-system/actions/runs/38683092641)
 - **项目资料：** 项目照片与原理图资料
 
 ### [基于多路ESP32-CAM的车流量自适应交通信号控制系统](https://github.com/rongyishuaige7/adaptive-traffic-signal-system)
@@ -43,7 +43,7 @@
 四路 ESP32-CAM 车流量自适应交通信号教学原型，包含 YOLOv8 跟踪/过线计数、FastAPI、Vue 3、WebSocket、12 路信号灯和四块 OLED。
 
 - **技术栈：** ESP32-CAM × 4 · ESP32 · YOLOv8 · FastAPI · Vue 3 · WebSocket
-- **构建证据：** [`9cc93c3c82e1`](https://github.com/rongyishuaige7/adaptive-traffic-signal-system/commit/9cc93c3c82e12c2e9d69a0800d7c6a1257e8a2f6) · [Actions 成功](https://github.com/rongyishuaige7/adaptive-traffic-signal-system/actions/runs/29669940796)
+- **构建证据：** [`67168f6ba145`](https://github.com/rongyishuaige7/adaptive-traffic-signal-system/commit/67168f6ba145fb85bb5f4028ed4558df9e0e5f64) · [Actions 成功](https://github.com/rongyishuaige7/adaptive-traffic-signal-system/actions/runs/38682970829)
 - **项目资料：** 项目照片、界面截图与 PCB 资料
 
 ### [基于ESP32-S3的健康科普语音交互终端](https://github.com/rongyishuaige7/esp32-s3-health-voice-terminal)
@@ -51,7 +51,7 @@
 基于本地唤醒、讯飞流式 ASR/TTS、DeepSeek SSE、双 I²S 音频和 LVGL 显示的健康科普语音终端教学原型。
 
 - **技术栈：** ESP32-S3 · ESP-IDF · ESP-SR · 讯飞 · DeepSeek · LVGL · FreeRTOS
-- **构建证据：** [`f64e9a089c56`](https://github.com/rongyishuaige7/esp32-s3-health-voice-terminal/commit/f64e9a089c5629b58125d97543bf4c7a4444e3f1) · [Actions 成功](https://github.com/rongyishuaige7/esp32-s3-health-voice-terminal/actions/runs/29669975332)
+- **构建证据：** [`2c9befc6eaa6`](https://github.com/rongyishuaige7/esp32-s3-health-voice-terminal/commit/2c9befc6eaa606975902b013bc920b1dbfb908b8) · [Actions 成功](https://github.com/rongyishuaige7/esp32-s3-health-voice-terminal/actions/runs/38683018748)
 - **项目资料：** 项目照片
 
 ### [基于树莓派和RFID的房卡管理系统](https://github.com/rongyishuaige7/raspberry-pi-rfid-room-card-system)
@@ -59,7 +59,7 @@
 双 RC522 房卡管理教学原型，包含树莓派 Python 服务、MariaDB、Qt/C++ 管理端、服务端角色权限、房态与审计记录。
 
 - **技术栈：** Raspberry Pi · Python · Qt/C++ · MariaDB · RC522 · SG90
-- **构建证据：** [`4016d0d0d25c`](https://github.com/rongyishuaige7/raspberry-pi-rfid-room-card-system/commit/4016d0d0d25c41254e1677843c7f05dc59f6ab50) · [Actions 成功](https://github.com/rongyishuaige7/raspberry-pi-rfid-room-card-system/actions/runs/29670052065)
+- **构建证据：** [`7933f839acd0`](https://github.com/rongyishuaige7/raspberry-pi-rfid-room-card-system/commit/7933f839acd07e222f6a7987fa8a4591affc272c) · [Actions 成功](https://github.com/rongyishuaige7/raspberry-pi-rfid-room-card-system/actions/runs/38683312415)
 - **项目资料：** 项目照片与界面截图
 
 ### [基于STM32的触摸与隔空手势控制系统](https://github.com/rongyishuaige7/stm32-touch-gesture-control-system)
@@ -67,7 +67,7 @@
 使用四路电容触摸和 APDS-9960 隔空手势控制四路 LED，并通过 ESP-01S 本地热点展示状态与诊断的教学原型。
 
 - **技术栈：** STM32F103 · C++ · PlatformIO · STM32Cube HAL · TTP223 · APDS-9960 · ESP-01S
-- **构建证据：** [`939edc50d73e`](https://github.com/rongyishuaige7/stm32-touch-gesture-control-system/commit/939edc50d73e2990bab5277a25bc284c4a5e76b9) · [Actions 成功](https://github.com/rongyishuaige7/stm32-touch-gesture-control-system/actions/runs/29670055624)
+- **构建证据：** [`b317da914a9a`](https://github.com/rongyishuaige7/stm32-touch-gesture-control-system/commit/b317da914a9a0a1068e1adbbb7132312af0bfbef) · [Actions 成功](https://github.com/rongyishuaige7/stm32-touch-gesture-control-system/actions/runs/38683131161)
 - **项目资料：** 项目照片与原理图资料
 
 ### [基于ESP32的智能闹钟系统](https://github.com/rongyishuaige7/esp32-smart-alarm-clock)
@@ -75,7 +75,7 @@
 基于 ESP32、OLED、DHT11、PIR、MAX98357A 与 Flutter 局域网客户端的智能闹钟教学原型。
 
 - **技术栈：** ESP32 · Arduino · PlatformIO · Flutter · OLED · DHT11 · PIR · MAX98357A
-- **构建证据：** [`e0ddaf58116b`](https://github.com/rongyishuaige7/esp32-smart-alarm-clock/commit/e0ddaf58116b65ba757c33f407d8cc567f3662ca) · [Actions 成功](https://github.com/rongyishuaige7/esp32-smart-alarm-clock/actions/runs/29669978454)
+- **构建证据：** [`b24cf2c2b50e`](https://github.com/rongyishuaige7/esp32-smart-alarm-clock/commit/b24cf2c2b50e5a3104f68cf7c36987efdecf190a) · [Actions 成功](https://github.com/rongyishuaige7/esp32-smart-alarm-clock/actions/runs/38683042497)
 - **项目资料：** 项目照片、界面截图与原理图资料
 
 ### [基于ESP32的智能药盒系统](https://github.com/rongyishuaige7/esp32-smart-pillbox)
@@ -83,7 +83,7 @@
 基于 ESP32、双 PIR、双 HX711、RGB/蜂鸣器与 Flutter 局域网客户端的智能药盒教学原型。
 
 - **技术栈：** ESP32 · Arduino · PlatformIO · Flutter · PIR · HX711 · SPIFFS · HTTP
-- **构建证据：** [`de8efb73bab2`](https://github.com/rongyishuaige7/esp32-smart-pillbox/commit/de8efb73bab2d2166c73d7a7e2ceff6b9e5ce47d) · [Actions 成功](https://github.com/rongyishuaige7/esp32-smart-pillbox/actions/runs/29670326912)
+- **构建证据：** [`cd627a429c09`](https://github.com/rongyishuaige7/esp32-smart-pillbox/commit/cd627a429c0976787f18cd8311eb19f49e685b69) · [Actions 成功](https://github.com/rongyishuaige7/esp32-smart-pillbox/actions/runs/38683070719)
 - **项目资料：** 项目照片与原理图资料
 
 ### [基于ESP32的天气时钟](https://github.com/rongyishuaige7/esp32-weather-clock)
@@ -91,7 +91,7 @@
 基于 ESP32、DHT22、BH1750、DS3231、SSD1306 OLED 与本地 AP 配网的天气时钟教学原型。
 
 - **技术栈：** ESP32 · Arduino · PlatformIO · DHT22 · BH1750 · DS3231 · SSD1306 · Wi-Fi
-- **构建证据：** [`ff0fbc8521fd`](https://github.com/rongyishuaige7/esp32-weather-clock/commit/ff0fbc8521fd9e19763a88c659a49dc4cbc549e1) · [Actions 成功](https://github.com/rongyishuaige7/esp32-weather-clock/actions/runs/29670048579)
+- **构建证据：** [`3bb7e7c8b368`](https://github.com/rongyishuaige7/esp32-weather-clock/commit/3bb7e7c8b368fcc9c4beddba5d8a326ed1b5cff6) · [Actions 成功](https://github.com/rongyishuaige7/esp32-weather-clock/actions/runs/38683083370)
 - **项目资料：** 项目照片、原理图与 PCB 资料
 
 ### [基于ESP32-S3的多传感器智能安全监测系统](https://github.com/rongyishuaige7/esp32-s3-smart-safety-monitor)
@@ -99,7 +99,7 @@
 ESP32-S3 多传感器监测教学原型，包含 MQ-2/MQ-5 原始采样、火焰与超声波输入、OLED、本地状态页和低压执行器分时逻辑。
 
 - **技术栈：** ESP32-S3 · ESP-IDF · PlatformIO · FreeRTOS · MQ-2 · MQ-5 · SSD1306 · HC-SR04
-- **构建证据：** [`91c959bd5aaa`](https://github.com/rongyishuaige7/esp32-s3-smart-safety-monitor/commit/91c959bd5aaa170ab8152e9ea2f8cfff380fe08b) · [Actions 成功](https://github.com/rongyishuaige7/esp32-s3-smart-safety-monitor/actions/runs/29669977716)
+- **构建证据：** [`13699f24e20d`](https://github.com/rongyishuaige7/esp32-s3-smart-safety-monitor/commit/13699f24e20d4d0b089035097ad7b71c69555613) · [Actions 成功](https://github.com/rongyishuaige7/esp32-s3-smart-safety-monitor/actions/runs/38683032828)
 - **项目资料：** 原理图、PCB 与制造资料
 
 ### [基于树莓派的多传感器小型气象站](https://github.com/rongyishuaige7/raspberry-pi-weather-station)
@@ -107,7 +107,7 @@ ESP32-S3 多传感器监测教学原型，包含 MQ-2/MQ-5 原始采样、火焰
 树莓派采集 DHT22 温湿度与 BH1750 光照，写入 MySQL，经 Flask REST API 供 Avalonia / C# 上位机查看、查询历史和维护阈值的教学原型。
 
 - **技术栈：** Raspberry Pi · Python · Flask · MySQL · C# · Avalonia · DHT22 · BH1750
-- **构建证据：** [`975b6d57379b`](https://github.com/rongyishuaige7/raspberry-pi-weather-station/commit/975b6d57379b0622ba944a7108ee79a9de3ad0c8) · [Actions 成功](https://github.com/rongyishuaige7/raspberry-pi-weather-station/actions/runs/29670053262)
+- **构建证据：** [`108eb73c0296`](https://github.com/rongyishuaige7/raspberry-pi-weather-station/commit/108eb73c02961bd943bc47e4d48e9fb1c9427b54) · [Actions 成功](https://github.com/rongyishuaige7/raspberry-pi-weather-station/actions/runs/38683323688)
 - **项目资料：** 界面与日志截图
 
 ### [基于ESP32的婴儿状态监测原型](https://github.com/rongyishuaige7/esp32-baby-monitor)
@@ -115,7 +115,7 @@ ESP32-S3 多传感器监测教学原型，包含 MQ-2/MQ-5 原始采样、火焰
 两路距离、温湿度与声音幅度输入驱动 ESP32 中的演示级固定阈值分类、RGB/蜂鸣器本地反馈和可选可信局域网 JSON 接口。
 
 - **技术栈：** ESP32 · Arduino · PlatformIO · HC-SR04 · DHT11 · 模拟声音输入 · WebServer
-- **构建证据：** [`bbcac0c86ccd`](https://github.com/rongyishuaige7/esp32-baby-monitor/commit/bbcac0c86ccdeaef1997d4f2633ca6c962f526db) · [Actions 成功](https://github.com/rongyishuaige7/esp32-baby-monitor/actions/runs/29669971693)
+- **构建证据：** [`050f45da226d`](https://github.com/rongyishuaige7/esp32-baby-monitor/commit/050f45da226d59f1bb51e6deed0be32f7ce7ece2) · [Actions 成功](https://github.com/rongyishuaige7/esp32-baby-monitor/actions/runs/38683273377)
 - **项目资料：** 项目照片与原理图资料
 
 ### [基于ESP32的蜂箱多传感器数据采集与局域网展示原型](https://github.com/rongyishuaige7/esp32-beehive-monitor)
@@ -123,7 +123,7 @@ ESP32-S3 多传感器监测教学原型，包含 MQ-2/MQ-5 原始采样、火焰
 ESP32 读取 DHT11、BH1750、BMP280、模拟声音幅度和 MQ-2 原始 ADC；使用者本地配置后，Flutter 客户端可在可信局域网请求一条本地 JSON 响应。
 
 - **技术栈：** ESP32 · Arduino · PlatformIO · Flutter · DHT11 · BH1750 · BMP280 · 模拟 ADC · 本地 HTTP
-- **构建证据：** [`7444d1726686`](https://github.com/rongyishuaige7/esp32-beehive-monitor/commit/7444d17266862ada2c2020ad8013b31d6282a718) · [Actions 成功](https://github.com/rongyishuaige7/esp32-beehive-monitor/actions/runs/29669972717)
+- **构建证据：** [`da4a4a076d8f`](https://github.com/rongyishuaige7/esp32-beehive-monitor/commit/da4a4a076d8f1a94e6d009189f4f108ccc6ee64f) · [Actions 成功](https://github.com/rongyishuaige7/esp32-beehive-monitor/actions/runs/38683001244)
 - **项目资料：** 项目照片、原理图与 PCB 资料
 
 ### [基于ESP32的多路智能照明控制系统](https://github.com/rongyishuaige7/esp32-smart-light-controller)
@@ -131,7 +131,7 @@ ESP32 读取 DHT11、BH1750、BMP280、模拟声音幅度和 MQ-2 原始 ADC；�
 基于 ESP32、四路低压 LED 与可选 BH1750 的本地智能照明教学原型，演示四路手动控制、倒计时与环境亮度触发的四路联动自动逻辑。
 
 - **技术栈：** ESP32 · Arduino · PlatformIO · ESPAsyncWebServer · BH1750 · 低压 LED · 可选本地 HTTP
-- **构建证据：** [`622c1e5ed125`](https://github.com/rongyishuaige7/esp32-smart-light-controller/commit/622c1e5ed1256ff64788673263f5c15955685f69) · [Actions 成功](https://github.com/rongyishuaige7/esp32-smart-light-controller/actions/runs/29669979237)
+- **构建证据：** [`961a3f012cc9`](https://github.com/rongyishuaige7/esp32-smart-light-controller/commit/961a3f012cc9aab9f67346282f7c4bc8aad0878a) · [Actions 成功](https://github.com/rongyishuaige7/esp32-smart-light-controller/actions/runs/38683061055)
 - **项目资料：** 固件、BOM 与接线说明
 
 ### [基于ESP32的智能化妆品收纳与环境管理系统](https://github.com/rongyishuaige7/esp32-smart-makeup-cabinet)
@@ -185,5 +185,16 @@ ESP32 读取 DHT11、BH1750、BMP280、模拟声音幅度和 MQ-2 原始 ADC；�
 ## 索引维护
 
 [`projects.yml`](projects.yml) 是机器可读索引。CI 会核对公开仓库、默认分支、提交 SHA、固定 Actions 链接与 README 同步。
+
+每 6 小时重新核对跨仓库证据，索引本身没有新提交也会检查。检查失败时保留失败状态，不用旧运行冒充新提交已验证。
+
+```bash
+# 先核验每个项目当前 HEAD 在原指定工作流上的最新可信运行，再同步索引和 README。
+python3 scripts/refresh_evidence.py --write
+python3 scripts/validate_projects.py
+python3 -m unittest discover -s scripts -p 'test_*.py'
+```
+
+刷新只更新提交、运行链接、指定工作流与核验日期，不改变项目材料和真机复测范围。任一项目未知、失败或上传产物范围变化时，不写入本次刷新。
 
 项目的接线、供电、网络和使用注意事项以各项目 README 为准。
