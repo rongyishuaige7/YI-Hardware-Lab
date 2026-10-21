@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status_date": "2026-10-20",
+  "status_date": "2026-10-21",
   "projects": [
     {
       "name": "基于ESP32-S3的视觉猜拳游戏",
@@ -270,17 +270,17 @@
       "name": "基于树莓派的多传感器小型气象站",
       "repo": "https://github.com/rongyishuaige7/raspberry-pi-weather-station",
       "default_branch": "main",
-      "head_sha": "108eb73c02961bd943bc47e4d48e9fb1c9427b54",
+      "head_sha": "29e4c26b80bef30cb2c2fa5a97c601b1a4c02510",
       "platform": "Raspberry Pi · Python · Flask · MySQL · C# · Avalonia · DHT22 · BH1750",
       "summary": "树莓派采集 DHT22 温湿度与 BH1750 光照，写入 MySQL，经 Flask REST API 供 Avalonia / C# 上位机查看、查询历史和维护阈值的教学原型。",
       "build": {
         "status": "passed",
-        "run_url": "https://github.com/rongyishuaige7/raspberry-pi-weather-station/actions/runs/38683323688",
-        "head_sha": "108eb73c02961bd943bc47e4d48e9fb1c9427b54",
+        "run_url": "https://github.com/rongyishuaige7/raspberry-pi-weather-station/actions/runs/39540791433",
+        "head_sha": "29e4c26b80bef30cb2c2fa5a97c601b1a4c02510",
         "artifact_retention_days": 14,
         "workflow": ".github/workflows/validate.yml"
       },
-      "media_scope": "公开三张已去元数据并按需遮盖终端用户名、路径和私网地址的 2026-04-07 历史界面/日志截图；未公开实物照片、演示视频或 EDA/制造文件。",
+      "media_scope": "公开三张已去元数据并按需遮盖终端用户名、登录用户名、路径和私网地址的 2026-04-07 历史界面/日志截图；未公开实物照片、演示视频或 EDA/制造文件。",
       "known_boundaries": [
         "CI 的 USE_MOCK_SENSORS=1 只生成随机模拟数据，不代表真实传感器、当前天气、设备在线或环境状态。",
         "API /api/health 只说明 API 进程响应；devices.status 是人工维护字段；查询到最新记录不代表实时采样或采集器运行。",

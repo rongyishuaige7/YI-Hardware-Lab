@@ -2,7 +2,7 @@
 
 我独立完成的软硬件项目作品集，收录源码、项目介绍、构建记录和可公开的项目资料。
 
-> **更新日期：2026-10-20。** 当前收录 22 个公开项目。“Actions 成功”链接记录截至本次核验的默认分支提交；后续提交可能使索引落后，定时检查会明确报错。部分项目提供短期 Actions Artifact。
+> **更新日期：2026-10-21。** 当前收录 22 个公开项目。“Actions 成功”链接记录截至本次核验的默认分支提交；后续提交可能使索引落后，定时检查会明确报错。部分项目提供短期 Actions Artifact。
 
 ## 项目
 
@@ -107,7 +107,7 @@ ESP32-S3 多传感器监测教学原型，包含 MQ-2/MQ-5 原始采样、火焰
 树莓派采集 DHT22 温湿度与 BH1750 光照，写入 MySQL，经 Flask REST API 供 Avalonia / C# 上位机查看、查询历史和维护阈值的教学原型。
 
 - **技术栈：** Raspberry Pi · Python · Flask · MySQL · C# · Avalonia · DHT22 · BH1750
-- **构建证据：** [`108eb73c0296`](https://github.com/rongyishuaige7/raspberry-pi-weather-station/commit/108eb73c02961bd943bc47e4d48e9fb1c9427b54) · [Actions 成功](https://github.com/rongyishuaige7/raspberry-pi-weather-station/actions/runs/38683323688)
+- **构建证据：** [`29e4c26b80be`](https://github.com/rongyishuaige7/raspberry-pi-weather-station/commit/29e4c26b80bef30cb2c2fa5a97c601b1a4c02510) · [Actions 成功](https://github.com/rongyishuaige7/raspberry-pi-weather-station/actions/runs/39540791433)
 - **项目资料：** 界面与日志截图
 
 ### [基于ESP32的婴儿状态监测原型](https://github.com/rongyishuaige7/esp32-baby-monitor)
