@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate the Hardware Lab index against live public GitHub facts."""
+"""Validate the YI-Hardware-Lab index against live public GitHub facts."""
 
 from __future__ import annotations
 
@@ -67,7 +67,7 @@ def get_json(url: str) -> dict[str, Any]:
 
     headers = {
         "Accept": "application/vnd.github+json",
-        "User-Agent": "rongyi-hardware-lab-validator",
+        "User-Agent": "rongyi-yi-hardware-lab-validator",
         "X-GitHub-Api-Version": "2022-11-28",
     }
     if token:
@@ -102,7 +102,7 @@ def validate_local(data: dict[str, Any]) -> list[dict[str, Any]]:
     if len(projects) != EXPECTED_PROJECT_COUNT:
         fail(
             f"projects must contain the {EXPECTED_PROJECT_COUNT} currently "
-            "published Hardware Lab entries"
+            "published YI-Hardware-Lab entries"
         )
 
     repos: set[str] = set()
@@ -115,7 +115,7 @@ def validate_local(data: dict[str, Any]) -> list[dict[str, Any]]:
 
         name = require_nonempty_string(project, "name", f"project #{index}")
         if not re.search(r"[\u4e00-\u9fff]", name):
-            fail(f"{name}: Hardware Lab project names must contain Chinese text")
+            fail(f"{name}: YI-Hardware-Lab project names must contain Chinese text")
         repo = require_nonempty_string(project, "repo", name).rstrip("/")
         project["repo"] = repo
         if not REPO_RE.fullmatch(repo):
@@ -243,7 +243,7 @@ def main() -> None:
     projects = validate_local(data)
     validate_readme(projects)
     validate_live(projects)
-    print(f"Hardware Lab validation: PASS ({len(projects)} projects)")
+    print(f"YI-Hardware-Lab validation: PASS ({len(projects)} projects)")
 
 
 if __name__ == "__main__":

@@ -1,4 +1,4 @@
-name: Validate Hardware Lab
+name: Validate YI-Hardware-Lab
 
 on:
   push:
@@ -14,7 +14,7 @@ permissions:
   actions: read
 
 concurrency:
-  group: hardware-lab-${{ github.workflow }}-${{ github.ref }}
+  group: yi-hardware-lab-${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
